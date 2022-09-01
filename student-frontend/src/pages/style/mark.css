@@ -1,0 +1,27 @@
+.markWrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+}
+.markElements{
+    text-decoration: none;
+    background-color:#282A35;
+    color:white;
+    width:30%;
+    margin:20px 10px 20px 10px;
+    height:54px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    max-width: 250px;;
+}
+.markElements:hover{
+    background-color: black;
+}
+.markActive{
+    background-color:#04AA6D;
+}
+.markActive:hover{
+    background-color:#04AA6D;
+}

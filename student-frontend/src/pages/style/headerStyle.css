@@ -1,0 +1,30 @@
+.headerLink{
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+}
+.linkElements{
+    font-size:18px;
+    width:25%;
+    height:60px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+    color:#f1f1f1;
+    background-color:#282A35;
+}
+.linkElements:hover{
+    background-color:black;
+}
+.linkActive{
+    background-color:#04AA6D;
+}
+.linkActive:hover{
+    background-color:#04AA6D ;
+}
+.header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

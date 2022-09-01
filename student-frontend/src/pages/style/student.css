@@ -1,0 +1,27 @@
+.studentWrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:row;
+}
+.studentElements{
+    text-decoration: none;
+    background-color:#282A35;
+    color:white;
+    width:30%;
+    margin:20px 10px 20px 10px;
+    height:54px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    max-width: 250px;;
+}
+.studentElements:hover{
+    background-color: black;
+}
+.studentActive{
+    background-color:#04AA6D;
+}
+.studentActive:hover{
+    background-color:#04AA6D;
+}

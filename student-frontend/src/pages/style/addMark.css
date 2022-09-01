@@ -1,0 +1,91 @@
+.addMarkWrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    width:100%;
+}
+select{
+    width:200px;
+    height:55px;
+    text-align:center;
+    font-size:16px;
+    background-color: #282A35;
+    color:white;
+}
+option{
+    background-color: white;
+    color:black;
+}
+
+.addMarkElements{
+    height:50px;
+    width:25%;
+    margin:15px;
+    font-size:16px;
+    max-width:300px;
+}
+.submitBtn{
+    margin:10px;
+    background-color:#04AA6D;
+    color:white;
+    height:40px;
+    width:100px;
+    border:0px;
+    opacity:0.9;
+    font-size:16px;
+}
+.submitBtn:hover{
+    opacity:1;
+    box-shadow:1px 1px 3px 1px grey;
+}
+.msgdiv{
+    font-size:18px;
+    padding:10px;
+}
+.addMarkSubWrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+.rankWrapper{
+    margin-top:20px;
+}
+.generate{
+    height:35px;
+    background-color:#04AA6D;
+    border:0px;
+    color:white;
+    font-size:16px;
+    opacity:0.9;
+    margin:10px;
+    border-radius:2px;
+}
+.generate:hover{
+    opacity:1;
+    box-shadow:1px 1px 3px 1px grey;
+}
+.tableData{
+    width:100%;
+    margin-top:20px;
+}
+
+.tableHeaderWrapper{
+    background-color:#282A35;
+    color:white;
+    height:50px;
+    text-align:center;
+}
+.tableHead{
+    text-align:center;
+    width:10%;
+}
+.tableRows{
+    color:black;
+    text-align:center;
+    border:1px solid black;
+}
+.tableName{
+    text-align: left;
+}
